@@ -1,2 +1,2 @@
 # react-website
-react+nestjs  website project
+react+nestjs+tailwindcss  website project
