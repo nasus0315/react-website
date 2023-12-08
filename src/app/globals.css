@@ -24,10 +24,12 @@ body {
 			rgb(var(--background-end-rgb))
 		)
 		rgb(var(--background-start-rgb));
+	margin: 0;
+	padding: 0;
 }
 
 @layer components {
 	.split {
-		border-right: 2px solid #999;
+		border-right: 1px solid #999;
 	}
 }

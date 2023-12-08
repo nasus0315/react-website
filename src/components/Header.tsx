@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function Header() {
 	return (
-		<header className="w-full flex flex-row items-center h-24 justify-center">
+		<header className="w-full flex flex-row items-center h-24 ml-52">
 			<div className="px-6 split">
 				<div className="text-4xl text-priamry mb-1">
 					深圳市长青设备有限公司
