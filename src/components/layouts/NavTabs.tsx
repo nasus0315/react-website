@@ -1,7 +1,7 @@
 import { Tabs } from "antd";
 import type { TabsProps } from "antd";
-import Home from "@/components/home/index";
-import Product from "@/components/Product/index";
+import Home from "@/components/menus/home/index";
+import Product from "@/components/menus/Product/index";
 
 export default function NavTabs() {
 	const onChange = (key: string) => {};
@@ -24,8 +24,8 @@ export default function NavTabs() {
 		<div className="nav-tab mt-2">
 			<Tabs
 				tabPosition={"top"}
-				tabBarStyle={{ background: "#1677ff", paddingLeft: "300px" }}
-				defaultActiveKey="1"
+				tabBarStyle={{ background: "#1677ff", paddingLeft: "300px",marginBottom: 0 }}
+				defaultActiveKey="0"
 				items={items}
 				tabBarGutter={200}
 			/>

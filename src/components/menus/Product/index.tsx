@@ -1,13 +1,14 @@
 import Image from "next/image";
-import GoodProduct from "./good";
+import GoodProduct from "../home/good";
+import AllGoods from "./allGoods";
 
 function Product() {
 	return (
 		<>
-			<div className="relative w-full h-72">
+			<div className="relative box-border w-full h-72">
 				<Image
-					src="/tel.svg"
-					alt="联系方式"
+					src="/imgs/main.JPG"
+					alt="注塑机"
 					className="dark:invert"
 					priority
 					layout="fill"

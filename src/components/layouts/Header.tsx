@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from "next/image";
 
 export default function Header() {
 	return (
@@ -28,9 +28,11 @@ export default function Header() {
 					height={60}
 					priority
 				/>
-				<div className='flex flex-col align-center justify-center ml-2'>
-					<span className='text-2xl'>联系人：刘先生</span>
-					<span className='text-2xl'>手机：<span className='text-priamry'>13510441753</span></span>
+				<div className="flex flex-col align-center justify-center ml-2">
+					<span className="text-2xl">联系人：刘先生</span>
+					<span className="text-2xl">
+						手机：<span className="text-priamry">13510441753</span>
+					</span>
 				</div>
 			</div>
 		</header>
