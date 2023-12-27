@@ -1,5 +1,5 @@
 import Image from "next/image";
-import GoodProduct from "../home/good";
+import GoodProduct from "../home/Good";
 import AllGoods from "./allGoods";
 
 function Product() {

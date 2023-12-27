@@ -1,7 +1,8 @@
-import GoodProduct from "./good";
+import GoodProduct from "./Good";
 import Carousels from "./Carousels";
-import Case from "./case";
-import Adtise from "./adtise";
+import Case from "./Case";
+import Adtise from "./Adtise";
+import AboutMe from "./AboutMe";
 
 function Home() {
 	return (
@@ -10,6 +11,7 @@ function Home() {
 			<GoodProduct />
 			<Case />
 			<Adtise />
+			<AboutMe />
 		</>
 	);
 }
