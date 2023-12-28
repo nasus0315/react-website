@@ -1,11 +1,12 @@
-import Header from "@/components/layouts/Header";
-import NavTabs from "@/components/layouts/NavTabs";
+import Carousels from "@/components/home/Carousels";
+import Overview from "@/components/home/Overview";
+
 
 export default function Home() {
 	return (
-		<main className="flex min-h-screen flex-col overflow-x-hidden">
-			<Header />
-			<NavTabs />
+		<main className="">
+			<Carousels />
+			<Overview />
 		</main>
 	);
 }

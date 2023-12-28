@@ -4,7 +4,7 @@ import React from "react";
 import type { CollapseProps } from "antd";
 import { Collapse } from "antd";
 import { CaretRightOutlined } from "@ant-design/icons";
-import ImageGrid from "../../comps/grid";
+import ImageGrid from "../grid";
 import data from "@/config/data.json";
 
 const items: CollapseProps["items"] = [
