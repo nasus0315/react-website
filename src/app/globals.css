@@ -45,7 +45,7 @@ p {
 		border-radius: 10px;
 		background: #f5f5f5;
 	}
-	.li-item:hover, 
+	.li-item:hover,
 	.li-item.active {
 		background: #1677ff;
 		color: white;
@@ -106,4 +106,32 @@ p {
 	height: 100%;
 	transform: translate(-50%, -50%) scale(1);
 	border-radius: 0;
+}
+
+.animation-img {
+	transition: all 0.5s;
+	transform: scale(1);
+}
+
+.animation-img:hover {
+	transition: all 0.5s;
+	transform: scale(1.1);
+}
+
+@keyframes fadeInRight {
+	0% {
+		transform: translateX(20px);
+	}
+
+	100% {
+		transform: translateX(0);
+	}
+}
+
+.aninimal-visibal {
+	visibility: visible;
+	animation-delay: 0.4s;
+	animation-name: fadeInRight;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
 }
