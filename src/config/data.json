@@ -1,0 +1,63 @@
+{
+	"hotList": [
+		{
+			"name": "85T",
+			"desc": "85T百科转盘机"
+		},
+		{
+			"name": "BS55TSH",
+			"desc": "百塑55T双滑板高速机"
+		},
+		{
+			"name": "DR15T4",
+			"desc": "德润15T4"
+		},
+		{
+			"name": "DY85T",
+			"desc": "大禹85T圆盘机"
+		},
+		{
+			"name": "FT85T",
+			"desc": "丰铁85T双滑板"
+		},
+		{
+			"name": "GM55T",
+			"desc": "冠明55T圆盘机"
+		},
+		{
+			"name": "JT55",
+			"desc": "今通55T双滑板"
+		},
+		{
+			"name": "QXWSJ",
+			"desc": "全新卧式机"
+		}
+	],
+
+	"caseList": [
+		{
+			"name": "case_dg",
+			"desc": "东莞二手注塑机厂家"
+		},
+		{
+			"name": "case_zsj",
+			"desc": "注塑机厂家"
+		},
+		{
+			"name": "case_bkzsj",
+			"desc": "百科注塑机厂家"
+		},
+		{
+			"name": "case_bszsj",
+			"desc": "百塑注塑机厂家"
+		},
+		{
+			"name": "case_ershou",
+			"desc": "二手注塑机厂家"
+		},
+		{
+			"name": "case_lszsjsc",
+			"desc": "立式注塑机生产厂家"
+		}
+	]
+}
